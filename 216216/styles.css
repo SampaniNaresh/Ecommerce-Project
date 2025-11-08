@@ -1,0 +1,127 @@
+.image1 {
+      width: 50px;   /* Set image width */
+      height: 50px;  /* Set image height */
+      object-fit: cover; /* Crop nicely without stretching */
+      border-radius: 10px; /* Optional rounded corners */
+    }
+    body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.shop-section {
+  padding: 60px 0;
+}
+
+.shop-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.shop-title span {
+  color: #f5b400; /* Yellow color for "Shop" */
+}
+
+.shop-desc {
+  font-size: 16px;
+  color: #555;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  max-width: 400px;
+}
+
+.btn-buy {
+  background-color: #f5b400;
+  color: white;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-buy:hover {
+  background-color: #e1a300;
+}
+
+.btn-read {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 8px;
+  margin-left: 10px;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-read:hover {
+  background-color: #000;
+}
+
+.veg-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* 🔹 Push Right-Side Content More to the Right */
+.right-content {
+  margin-left: 80px;  /* Adjust this value as needed */
+}
+
+/* Responsive Fix for Mobile Screens */
+@media (max-width: 991px) {
+  .right-content {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.aboutshop{
+  text-align: center;
+}
+.heading2 {
+  font-size: 42px;
+  font-weight: bold;
+}
+.image2 {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.product-card {
+    border-style: dashed; /* Dashed border like your design */
+    border-color: #ccc;
+    padding: 15px;
+    transition: 0.3s;
+  }
+
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  .product-img {
+    height: 120px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    color: #f5b400;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .btn-buy {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 6px 15px;
+    transition: 0.3s;
+  }
+
+  .btn-buy:hover {
+    background-color: #f5b400;
+    color: #000;
+  }
